@@ -63,3 +63,42 @@ void ULListStr::clear()
   tail_ = NULL;
   size_ = 0;
 }
+
+
+// My Work Below
+
+void ULListStr::push_back(const std::string& val) 
+{
+
+}
+
+void ULListStr::push_front(const std::string& val) 
+{
+
+}
+
+void ULListStr::pop_back() 
+{
+
+}
+
+void ULListStr::pop_front()
+{
+
+}
+
+std::string const & ULListStr::back() const
+{
+
+}
+
+std::string const & ULListStr::front() const
+{
+
+}
+
+std::string* ULListStr::getValAtLoc(size_t loc) const
+{
+  
+}
+
